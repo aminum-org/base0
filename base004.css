@@ -1,0 +1,32 @@
+/* Mon premier selecteur de balise
+en l'occurence <body> */
+body{
+    color: red;
+}
+
+h3{
+    color: burlywood;
+    border : 17px solid green;
+    /* cette maniere de fixer le meme padding sur tous les bords fonctionne */
+    /* padding: 30px; */
+    /* cette manière ne fonctionne pas */
+    /* padding-top: 10px;
+    padding-right: 15;
+    padding-bottom: 20;
+    padding-left: 30; */
+    /* ce menière fonctionne et la référence est sur :
+    https://www.educba.com/html-padding/ */
+    padding: 10px 15px 20px 30px;
+    margin:51px;
+}
+span.paragraphe{
+    color :whitesmoke;
+    background-color: black;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span.attention{
+    background-color: red;
+}
